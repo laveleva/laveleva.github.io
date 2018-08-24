@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "//marialevandovskaya.com"
+baseURL = ""
 languageCode = "en-US"
 title = "Maria Levandovskaya"
 theme = "hugo-split-theme"
