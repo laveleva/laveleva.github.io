@@ -1,7 +1,7 @@
 # Site settings
-baseURL = "//example.org"
+baseURL = "//marialevandovskaya.com"
 languageCode = "en-US"
-title = "Split - HTML Template Demo"
+title = "Maria Levandovskaya"
 theme = "hugo-split-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 
@@ -9,15 +9,15 @@ disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 googleAnalytics = ""
 
 # Copyright
-copyright = "&copy;2018 Your Name"
+copyright = "&copy;2018 Maria Levandovskaya"
 
 [params]
 
   # Metadata for search engines and social sharing
   author = "Maria Levandovskaya"
-  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  description = "The homepage of Russian British Pianist Maria Levandovskaya"
   shareImage = "images/social.jpg"
-  twitterHandle = "onepagelove"
+  twitterHandle = ""
 
   # Favicon
   favicon = "favicon.ico"
@@ -28,8 +28,8 @@ copyright = "&copy;2018 Your Name"
     # Image
     [params.visual.image]
       enable = true
-      file = "images/background.jpg"
-      position = "center center"
+      file = "images/37575683696_4e830bdc97_b.jpg"
+      position = "left top"
 
     # Video
     [params.visual.video]
@@ -45,51 +45,51 @@ copyright = "&copy;2018 Your Name"
     [params.links.list1]
       heading = "Connect"
 
-      [[params.links.list1.link]]
-        text = "Blog"
-        url = "#"
+#      [[params.links.list1.link]]
+#        text = "Blog"
+#        url = "#"
 
       [[params.links.list1.link]]
         text = "Email"
         url = "#"
 
-      [[params.links.list1.link]]
-        text = "Newsletter"
-        url = "#"
+#      [[params.links.list1.link]]
+#        text = "Newsletter"
+#        url = "#"
 
   # Links List #2
   [[params.links]]
     [params.links.list2]
       heading = "Social"
 
-      [[params.links.list2.link]]
-        text = "Twitter"
-        url = "#"
+#      [[params.links.list2.link]]
+#        text = "Twitter"
+#        url = "#"
 
       [[params.links.list2.link]]
-        text = "Instagram"
+        text = "LinkedIn"
         url = "#"
 
-      [[params.links.list2.link]]
-        text = "Dribbble"
-        url = "#"
+#      [[params.links.list2.link]]
+#        text = "Instagram"
+#        url = "#"
 
-  # Links List #3
-  [[params.links]]
-    [params.links.list3]
-      heading = "Network"
-
-      [[params.links.list3.link]]
-        text = "Link One"
-        url = "#"
-
-      [[params.links.list3.link]]
-        text = "Link Two"
-        url = "#"
-
-      [[params.links.list3.link]]
-        text = "Link Three"
-        url = "#"
+#  # Links List #3
+#  [[params.links]]
+#    [params.links.list3]
+#      heading = "Network"
+#
+#      [[params.links.list3.link]]
+#        text = "Link One"
+#        url = "#"
+#
+#      [[params.links.list3.link]]
+#        text = "Link Two"
+#        url = "#"
+#
+#      [[params.links.list3.link]]
+#        text = "Link Three"
+#        url = "#"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.
